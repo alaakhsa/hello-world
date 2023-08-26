@@ -2,17 +2,18 @@
 ## Team members:
 - Arwa Alnamlan. 
 - Alaa Alsalman.  
-- Sseed .
-All team members partcibate in data preprocessing, data cleaning, EDA, creat charts, standardize and split the data, and finally apply the ML model
+- Saeed Qahhas.
+  
+  All team members partcibate in data preprocessing, data cleaning, EDA, creat charts, standardize and split the data, and finally apply the ML model
 
 # Introduction
 
-The objective of this project is to perform an exploratory data analysis and machine learning on a dataset about Used car prices in Saudi Arabia to predict the Used car prices using Python Libraries such as NumPy, Pandas, Matplotlib, Seaborn, Plotly, and Scikit-learn. and find the appropriate regression model
+The objective of this project is to perform an exploratory data analysis and machine learning on a dataset about Used car prices in Saudi Arabia to predict the Used car prices using Python Libraries such as NumPy, Pandas, Matplotlib, Seaborn, Plotly, and Scikit-learn. and find the appropriate regression model.
 
 
 # Dataset Overview and Source
 
-The dataset used for this project consists of information about used cars, The data attributes include Brand, Model, Year, Color, Options, Fuel_Type, Gear_Type, Engine_Size, Mileage, Region, Price, and Age. The dataset was sourced from https:// . It contains a total of 7290 rows and 12 columns.
+The dataset used for this project consists of information about used cars, The data attributes include Brand, Model, Year, Color, Options, Fuel_Type, Gear_Type, Engine_Size, Mileage, Region, Price, and Age. The dataset contains 7290 rows and 12 columns of used cars collected from syarah.com. 
 
 The dataset was preprocessed and split into training and testing sets for model development and evaluation.
 
