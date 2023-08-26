@@ -1,14 +1,20 @@
-# Google Play Store
+# LOAN Status Prediction
 ## Team members:
-- Amjad Alsuwaiket
-- Omar Alnasser 
-- Hamad AL Sulaiman
+- Saeed 
+- Alaa  Alsalman
+- Arwa 
 
 # Introduction
 
-The goal of this project is to develop machine learning models that can predict the rating of Google play store mobile apps based on various features such as reviews, number of installs, type, and price. By training and evaluating different models, we aim to identify the most accurate and reliable approach for predicting app ratings.
+The goal of this project is to develop machine learning models that can predict LOAN Status, by using some of the background information of the applicant like the applicant’s gender, marital status, income, and education. By training and evaluating different models, we aim to identify the most accurate.
+
 
 # Dataset Overview and Source
+
+The dataset was sourced from https://www.kaggle.com/datasets/burak3ergun/loan-data-set . It contains a total of 614 rows and 13 columns.
+
+
+The dataset was preprocessed and split into training and testing sets for model development and evaluation.
 
 The dataset used for this project consists of information about mobile apps, including their reviews, number of installs, type (free or paid), price, and rating. The dataset was sourced from https://www.kaggle.com/datasets/lava18/google-play-store-apps. It contains a total of 10841 rows and 18 columns.
 
