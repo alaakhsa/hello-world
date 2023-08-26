@@ -1,16 +1,18 @@
-# Google Play Store
+# Used car prices in Saudi Arabia :car: :oncoming_automobile:
 ## Team members:
-- Amjad Alsuwaiket
-- Omar Alnasser 
-- Hamad AL Sulaiman
+- Arwa Alnamlan. 
+- Alaa Alsalman.  
+- Sseed .
+All team members partcibate in data preprocessing, data cleaning, EDA, creat charts, standardize and split the data, and finally apply the ML model
 
 # Introduction
 
-The goal of this project is to develop machine learning models that can predict the rating of Google play store mobile apps based on various features such as reviews, number of installs, type, and price. By training and evaluating different models, we aim to identify the most accurate and reliable approach for predicting app ratings.
+The objective of this project is to perform an exploratory data analysis and machine learning on a dataset about Used car prices in Saudi Arabia to predict the Used car prices using Python Libraries such as NumPy, Pandas, Matplotlib, Seaborn, Plotly, and Scikit-learn. and find the appropriate regression model
+
 
 # Dataset Overview and Source
 
-The dataset used for this project consists of information about mobile apps, including their reviews, number of installs, type (free or paid), price, and rating. The dataset was sourced from https://www.kaggle.com/datasets/lava18/google-play-store-apps. It contains a total of 10841 rows and 18 columns.
+The dataset used for this project consists of information about used cars, The data attributes include Brand, Model, Year, Color, Options, Fuel_Type, Gear_Type, Engine_Size, Mileage, Region, Price, and Age. The dataset was sourced from https:// . It contains a total of 7290 rows and 12 columns.
 
 The dataset was preprocessed and split into training and testing sets for model development and evaluation.
 
@@ -18,11 +20,19 @@ The dataset was preprocessed and split into training and testing sets for model 
 
 The table below summarizes the final results of the machine learning models evaluated in this project:
 
-| Model                 | Accuracy | MAE   | MSE   | RMSE  |
-|-----------------------|----------|-------|-------|-------|
-| Logistic Regression   | 0.782    | 0.249 | 0.319 | 0.564 |
-| Random Forest         | 0.725    | 0.310 | 0.391 | 0.625 |
 
-Note: Accuracy represents the proportion of correct predictions, MAE measures the average absolute difference between predicted and actual values, MSE calculates the average squared difference, and RMSE is the square root of MSE.
+| Regression model  | MAE | MSE | RMSE | R2 score |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+|Linear Regression Model| 0.38 | 0.24 | 0.49 | 0.59 |
+|Decision Tree Regression Model | 0.24|0.14|0.38|  0.75|
+|Random Forest Regression Model | 0.19|0.08|0.29|  0.85 |
 
-The table provides a clear comparison of the performance metrics for each model, allowing for an easy assessment of their effectiveness in predicting app ratings.
+
+
+## conclusion and recommendations 
+the
+
+
+### Resource 
+- https://dibyendudeb.com/comparing-machine-learning-regression-models-using-python/
+
